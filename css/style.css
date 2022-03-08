@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    display: block;
+}
+
+label {
+    display: block;
+    
+}
+
+#myform, #forgetform, #subform {
+    width: 400px; 
+    height: 400px; 
+    padding: 50px;
+
+    margin: 0 auto; 
+    
+    background-color: orange;
+}
+
+#subform {
+    height: 420px;
+}
+
+input[type=text], input[type=password], input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%; 
+    background-color: black;
+    color: white; 
+    text-transform: uppercase;
+    height: 40px; 
+    border: none;
+    margin-top: 25px;
+}
+
+#forgetform button {
+    margin-top: 10px;
+}
+
+button:hover {
+    filter: invert(1); 
+}
+
+
+input:hover {
+    background-color: lightblue;
+    border: none;
+}
+
+h3 {
+    background-color: orange;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 0.9rem;
+}
+
+a:hover{
+    color: darkred;
+}
+
+
+.backtologindiv {
+    margin: 0 auto;
+    width: 400px;
+    background-color: orange;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
